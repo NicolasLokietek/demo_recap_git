@@ -15,3 +15,7 @@ app.listen(port, () => {
 });
 
 export default app;
+
+app.get("/", (req, res) =>{
+  res.send("Jonathan est nul a magic")
+})
