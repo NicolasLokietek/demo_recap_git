@@ -14,6 +14,10 @@ app.get("/conflict", (req, res) => {
   res.send("Je veux du confit !!!");
 });
 
+app.get("/conflict-second", (req, res) => {
+  res.send("Je veux du confit !!!");
+});
+
 app.listen(port, () => {
   console.log(`Serveur lancé sur http://localhost:${port}`);
 });
